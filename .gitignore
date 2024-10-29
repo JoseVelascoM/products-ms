@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+# Database data
+/postgres
+
 # Logs
 logs
 *.log
@@ -29,6 +32,7 @@ lerna-debug.log*
 *.sublime-workspace
 
 # IDE - VSCode
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
