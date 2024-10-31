@@ -24,4 +24,6 @@ model Products {
   isAvailable   Boolean
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
+
+  @@map("products")
 }
